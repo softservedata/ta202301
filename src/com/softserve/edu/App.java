@@ -16,7 +16,7 @@ public class App {
      * @param args
      */
     public static void main(String[] args) {
-        System.out.println("Hello");
+        System.out.println("Hello Dmytro");
         int k = 5;
         String s = "abc"; // new String("abc");
         k = k + 1;
