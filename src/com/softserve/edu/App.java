@@ -12,7 +12,7 @@ public class App {
     }
 
     /**
-     *  <b>JavaDoc</b> <font color='red'>Comment</font>
+     *  <b>JavaDoc</b> <font color='green'>Comment</font>
      * @param args
      */
     public static void main(String[] args) {
