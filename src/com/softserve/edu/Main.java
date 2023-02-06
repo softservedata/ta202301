@@ -31,6 +31,7 @@ public class Main {
         //
         System.out.println("Hello " + name);
         System.out.println("You are " + age);
+        System.out.println("Nice to see you! ");
         //
         sc.close();
     }
