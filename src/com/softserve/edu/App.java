@@ -1,6 +1,7 @@
 package com.softserve.edu;
 
 import com.softserve.edu01.A;
+import com.softserve.edu03.Student;
 
 public class App {
     private int i = 12;
@@ -45,5 +46,8 @@ public class App {
         a.m1();
         com.softserve.edu02.A a2 = new com.softserve.edu02.A();
         a2.m1();
+        //
+        Student student = new Student();
+        // Person Person = new Person(); // Compile Error
     }
 }
