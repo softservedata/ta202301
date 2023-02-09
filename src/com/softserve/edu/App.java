@@ -1,5 +1,5 @@
 package com.softserve.edu;
-
+import com.softserve.edu.hw3.Pair; // import was added in scope of HW03
 import com.softserve.edu01.A;
 
 public class App {
@@ -45,5 +45,9 @@ public class App {
         a.m1();
         com.softserve.edu02.A a2 = new com.softserve.edu02.A();
         a2.m1();
+
+        //adding the code according to the HW03
+        Pair pair1 = new Pair(10, 5);
+        pair1.print();
     }
 }
