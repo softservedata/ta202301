@@ -39,7 +39,7 @@ enum Season {
 }
 */
 
-/*-
+// /*-
 enum Season {
     WINTER("Winter") {
         public Season nextSeason() { return SPRING; }
@@ -69,9 +69,9 @@ enum Season {
     
     public abstract Season nextSeason();
 }
-*/
+// */
 
-// /*-
+/*-
 enum Season {
     WINTER("Winter", "Dec", "Jan", "Feb") {
         public Season nextSeason() {
@@ -119,7 +119,7 @@ enum Season {
 
     public abstract Season nextSeason();
 }
-// */
+*/
 
 public class AppEnum {
     public static void main(String[] args) {
@@ -128,6 +128,7 @@ public class AppEnum {
         season = Season.WINTER;
         System.out.println("season.toString() = " + season); // toString()
         System.out.println("season.name() = " + season.name());
+        System.out.println("season.name().toLowerCase() = " + season.name().toLowerCase());
         */
         /*-
         Season season = Season.WINTER;

@@ -3,7 +3,7 @@ package com.softserve.edu04if;
 import java.util.Objects;
 
 // POJO; Entity; Bean
-public class Student { // extends Object
+public class Student { // extends Object {
     private String name;
     private int age;
 

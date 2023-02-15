@@ -10,5 +10,6 @@ public class Appl {
         System.out.println("st2 = " + st2);
         System.out.println("st1.hashCode() = " + st1.hashCode());
         System.out.println("st2.hashCode() = " + st2.hashCode());
+        //Assert.equals(st1, st2);
     }
 }
