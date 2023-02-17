@@ -6,7 +6,7 @@ public class ApplSort {
     public static void main(String[] args) {
         //int[] arr = {  };
         int[] arr = { 2, -3, 7, -4, 8, 1, 4 };
-        // int[] arr = { 4, 3, 2, 1 };
+        //int[] arr = { 4, 3, 2, 1 };
         // int[] arr = { 1, 2, 3, 4 };
         System.out.println("Original Array: " + Arrays.toString(arr));
         //
