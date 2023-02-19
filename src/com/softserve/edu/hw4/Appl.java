@@ -20,7 +20,5 @@ public class Appl {
         System.out.println(max + " - is the maximum value");
         System.out.println(med + " - is in the middle");
         System.out.println(min + " - is the minimum value");
-
-
     }
 }
