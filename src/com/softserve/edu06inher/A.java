@@ -12,6 +12,7 @@ public class A extends Base { // extends Object {
         System.out.println("constructor A(int i)");
     }
 
+    @Override
     public int getI() {
         System.out.println("\tgetI() from A");
         return i;

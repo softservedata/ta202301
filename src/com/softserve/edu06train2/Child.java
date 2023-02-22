@@ -1,6 +1,6 @@
 package com.softserve.edu06train2;
 
-import com.softserve.edu07train.Parent;
+import com.softserve.edu06train.Parent;
 
 public class Child extends Parent {
 

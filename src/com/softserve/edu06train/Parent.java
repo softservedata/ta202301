@@ -1,4 +1,4 @@
-package com.softserve.edu07train;
+package com.softserve.edu06train;
 
 public class Parent {
 	
