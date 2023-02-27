@@ -12,9 +12,11 @@ public class App {
     }
 
     /**
-     *  <b>JavaDoc</b> <font color='red'>Comment</font>
+     * <b>JavaDoc</b> <font color='red'>Comment</font>
+     *
      * @param args
      */
+
     public static void main(String[] args) {
         System.out.println("Hello");
         int k = 5;
@@ -45,5 +47,7 @@ public class App {
         a.m1();
         com.softserve.edu02.A a2 = new com.softserve.edu02.A();
         a2.m1();
+        //
+
     }
 }
