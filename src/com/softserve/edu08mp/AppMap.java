@@ -10,11 +10,12 @@ public class AppMap {
 		//Map<Object, String> map = new TreeMap<>(new MyComp());
 		map.put("key1", "one");
 		map.put(new Object(), "two");
-		map.put(1, "3");
+		map.put(1, "3"); // int conver to Integer
 		map.put(new Object(), "three");
 		map.put(null, "is_simple_null");
-		System.out.println("map = " + map);
+		System.out.println("simple map = " + map);
 		map.put(null, "is_second_null");
+		System.out.println("second map = " + map);
 		//
 		// /*-
 		System.out.println("First");
@@ -32,9 +33,9 @@ public class AppMap {
 		}
 		//
 		res = map.remove(2);
-		System.out.println("res = " + res);
+		System.out.println("res = " + res); // null
 		System.out.println("element by \"key1\" = " + map.get("key1"));
-		System.out.println("non existing element by \"key12\" = " + map.get("key12"));
+		System.out.println("non existing element by \"key12\" = " + map.get("key12")); // null
 		// */
 	}
 }
