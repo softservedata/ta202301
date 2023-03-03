@@ -17,14 +17,14 @@ public class AppRegex {
 		//String pattern ="[bt]{2}";
 		//String pattern ="(\\w)\\1"; // Java String: \\ -> \
 		//String pattern = "\\b\\w*([\\w])\\1\\w*\\b";
-		//String text = "letter abba work abtc";
+		//String text = "letter abba work abtcc";
 		//
 		// /*-
 		//String pattern = "<.+>";
 		//String pattern = "<[^>]+>"; // All tags
 		//String pattern = ">[^><]+<"; // All text
-		String pattern = "<([^>]+)>[^><]+</\\1>"; // \1 == group(1)
-		String text = "<p><b>Beginning with bold text</b> next, <span>text</span> body,<i>italic text</i> end of text.</p>";
+		//String pattern = "<([^>]+)>[^><]+</\\1>"; // \1 == group(1)
+		//String text = "<p><b>Beginning with bold text</b> next, <span>text</span> body,<i>italic text</i> end of text.</p>";
 		// */
 		//
 		//String pattern = "\\w+(\\.\\w+)*@(\\w+\\.)+\\w{2,}";
@@ -36,9 +36,9 @@ public class AppRegex {
 		//String pattern = "\\b\\d{1,3}([,']\\d{3})*\\.\\d{2}\\b";
 		//String text = "4 item(s) - $1'111,450.40 text";
 		//
-//		String pattern ="\"par\":\"(\\w+)\"";
-//		String text = "{\"key\":\"value\",\"par\":\"data1\",\"key2\":\"value2\"}";
-//		System.out.println("JSON = " + text);
+		String pattern ="\"par\":\\s*\"(\\w+)\"";
+		String text = "{\"key\":\"value\",\"par\":\"data1\",\"key2\":\"value2\"}";
+		System.out.println("JSON = " + text);
 		//
 		Pattern p = Pattern.compile(pattern);
 		Matcher m = p.matcher(text);
@@ -55,7 +55,7 @@ public class AppRegex {
 		//List<String> list = new ArrayList<>();
 		while (m.find()) {
 			//
-			//System.out.println("grop1 = " + m.group(1));
+			System.out.println("grop1 = " + m.group(1));
 			//
 			/*-
 			String sNum = text.substring(m.start(), m.end());
@@ -70,13 +70,14 @@ public class AppRegex {
 			//list.add(text.substring(m.start(), m.end()));
 		}
 		/*-
-		System.out.println("\nLIST:");
+		System.out.println("\nLIST: ");
 		for (String current : list) {
 			System.out.println(current);
 			//double price = Double.valueOf(current.replaceAll("'|,", ""));
 			//System.out.printf("(price+1) = %.2f",(price + 1));
 		}
 		*/
+		//System.out.println("\nLIST:" + list);
 
 	}
 }
