@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 public class Password {
     private static final String PASSWORD_PATTERN =
-            "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[_!@#&()–[{}]:;',?/*~$^+=<>]).{8,20}$";
+            "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[_!@#&()–[{}]:;',?/*~$^+=<>]).{12,20}$";
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
